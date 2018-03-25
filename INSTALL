@@ -316,7 +316,11 @@ Build and install with ninja:
 
   ninja (uses all cores by default; also supports the above described -jX option)
   ninja install
+  
+You can build just the targets you need using :
 
+  ninja qgis
+  ninja pycore
 
   3.8. Building Debian packages
   =============================
